@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c07bf13e-dd4d-4a4d-9f3d-2bf4ecfceece" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/donald_trump_tweets.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/facebook.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imdb.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/instagram.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/messenger.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reddit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/setup.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/whatsapp_automation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xpath_examples.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="c07bf13e-dd4d-4a4d-9f3d-2bf4ecfceece" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +35,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="168">
-                <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+                <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -752,7 +739,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="168">
-            <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor>
