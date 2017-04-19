@@ -1,0 +1,4 @@
+bpython==0.16
+requests==2.13.0
+selenium==3.3.3
+Faker==0.7.11
