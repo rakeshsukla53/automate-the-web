@@ -14,21 +14,16 @@ def spam_messenger():
     sleep(3)
     list_of_friends = driver.find_elements_by_css_selector('ul[aria-label="Conversation List"]>li')
     scroll_to_bottom(driver)
-    total_friends = len(list_of_friends)
-    for index, friend in enumerate(list_of_friends):
-        if index == total_friends - 1:
-            sleep(15)
+    for friend in list_of_friends:
         friend.click()
+        driver.find_element_by_xpath('//div[contains(@aria-label, "Type a message")]').send_keys('This is an automated '
+                                                                                                 'message from '
+                                                                                                 'messenger bot. '
+                                                                                                 'Please ignore :( ')
     driver.quit()
 
 if __name__ == '__main__':
     spam_messenger()
-
-
-# driver.find_element_by_css_selector('div[aria-label="Type a message..."]').send_keys('This is an automated message '
-                                                                                     #  'from chat bot. Please ignore')
-# this works for all ... messenger chat bot
-
 
 
 
