@@ -1,6 +1,7 @@
 from selenium import webdriver
 from common import *
 from selenium.webdriver.chrome.options import Options
+from time import sleep
 
 
 def scrape_facebook_page():
@@ -15,7 +16,7 @@ def scrape_facebook_page():
     driver.find_element_by_css_selector('input[name="email"]').send_keys(email)
     driver.find_element_by_css_selector('input[data-testid="royal_pass"]').send_keys(password)
     driver.find_element_by_css_selector('input[data-testid="royal_pass"]').submit()
-    time.sleep(2)
+    sleep(2)
     driver.find_element_by_xpath('//*[text()="Hackathon Hackers"]').click()
     scroll_few_pages(driver, pages=100)
     hack_data = driver.find_elements_by_css_selector('.userContent p')

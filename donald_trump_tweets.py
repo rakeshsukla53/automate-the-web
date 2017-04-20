@@ -12,7 +12,7 @@ def get_donald_trump_tweets():
     driver.get("https://twitter.com/realDonaldTrump")
     scroll_few_pages(driver, pages=1000)
     driver.find_element_by_xpath('//*[contains(text(), "Back to top")]').click()
-    time.sleep(2)
+    sleep(2)
     all_the_tweets = driver.find_elements_by_css_selector('.js-tweet-text-container > p')
     for tweet in all_the_tweets:
         print(tweet.get_attribute('innerText'))

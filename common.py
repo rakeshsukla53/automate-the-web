@@ -1,9 +1,9 @@
-import time
 import os
 from faker import Faker
 from hashlib import md5
 from datetime import datetime
-from time import time
+from time import time, sleep
+
 
 EMAIL = os.environ['EMAIL']
 PASSWORD = os.environ['PASSWORD']
@@ -17,7 +17,7 @@ def scroll_to_bottom(driver):
         # Scroll down to bottom
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         # Wait to load page
-        time.sleep(pause_time)
+        sleep(pause_time)
         # Calculate new scroll height and compare with last scroll height
         new_height = driver.execute_script("return document.body.scrollHeight")
         if new_height == last_height:
@@ -35,7 +35,7 @@ def scroll_few_pages(driver, pages=10):
         count += 1
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         # Wait to load page
-        time.sleep(pause_time)
+        sleep(pause_time)
         # Calculate new scroll height and compare with last scroll height
         new_height = driver.execute_script("return document.body.scrollHeight")
         if new_height == last_height:
