@@ -24,6 +24,3 @@ def spam_messenger():
 
 if __name__ == '__main__':
     spam_messenger()
-
-
-
