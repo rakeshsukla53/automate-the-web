@@ -28,11 +28,3 @@ pip install -r requirements.txt
 
 # open python interpreter
 bpython
-
-
-
-
-
-
-
-
